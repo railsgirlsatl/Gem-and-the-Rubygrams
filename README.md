@@ -8,38 +8,38 @@ Project at Rails Girls ATL
 Then to pull:
 > git pull upstream master
 
-Main Page/Main Features/Usage
+### Main Page/Main Features/Usage
 
-"Collaboration Station" Ideas looking for collaborators
-Badges/Stickers!!! participation page (could the users create and upload these)
-Encouragement Section
-Announcements newsfeed style
-Blog
-"Tool Box" Resources/Tools
+* "Collaboration Station" Ideas looking for collaborators - Kristin & Taneshia 
+* Badges/Stickers!!! participation page (could the users create and upload these)  
+* Encouragement Section  
+* Announcements newsfeed style  
+* Blog  
+* "Tool Box" Resources/Tools  
 
-MAIN PAGE
+#### MAIN PAGE
 styled like a dashboard
 
-USER
-	username
-	password
-	email
+#### USER
+* username  
+* password  
+* email  
 future phase (security & approvals)
 
-PROFILE INFO
-	badges earned
-	projects
-	feed of your activity
-	picture/avatar
-	general location (neighborhoods)
+#### PROFILE INFO
+* badges earned  
+* projects  
+* feed of your activity  
+* picture/avatar  
+* general location (neighborhoods)
 
-APP NOTIFICATIONS
-	send welcome email when you sign-up
-	notifications
+#### APP NOTIFICATIONS
+* send welcome email when you sign-up
+* notifications
 	
-
-admin rights
-building a database
-log stuff
-like
-leave comments
+---------------------------
+* admin rights
+* building a database  
+* log stuff  
+* like  
+* leave comments
