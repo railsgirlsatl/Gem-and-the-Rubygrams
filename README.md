@@ -1,6 +1,13 @@
 # Gem-and-the-Rubygrams
 Project at Rails Girls ATL 
 
+### How to add upstream master
+
+> git add upstream master git://github.com/railsgirlsatl/Gem-and-the-Rubygrams.git
+
+Then to pull:
+> git pull upstream master
+
 Main Page/Main Features/Usage
 
 "Collaboration Station" Ideas looking for collaborators
