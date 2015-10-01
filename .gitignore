@@ -1,0 +1,12 @@
+# Files and folder listed here will not be included in version control/Git.
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
