@@ -1,4 +1,9 @@
 class UsersController < ApplicationController
+	
+	def show
+		@user = User.find(params[:id])
+	end
+
 	def new
 		@user = User.new
 	end
@@ -11,7 +16,6 @@ class UsersController < ApplicationController
 		else
 			flash[:error] = 'Your entry was incorrect. Please try again.'
 		end
-		render
 	end
 
 	private

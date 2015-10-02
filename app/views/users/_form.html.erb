@@ -3,22 +3,33 @@
       <%= f.label :first_name %>
       <%= f.text_field :first_name, class: 'form-control' %>
 
-     <%= f.label :last_name %>
+      <%= f.label :last_name %>
       <%= f.text_field :last_name, class: 'form-control' %>
-
-      <%= f.label :username %>
-      <%= f.text_field :username, class: 'form-control' %>
 
       <%= f.label :email %>
       <%= f.email_field :email, class: 'form-control' %>
 
+      <%= f.label :username %>
+      <%= f.text_field :username, class: 'form-control' %>
+
       <%= f.label :password %>
-      <%= f.password_field :password, class: 'form-control' %>
+      <%= f.text_field :password, class: 'form-control' %>
 
       <%= f.label :about_me %>
       <%= f.text_field :about_me, class: 'form-control' %>
 
       <%= f.label :avatar %>
       <%= f.text_field :avatar, class: 'form-control' %>
+
+      <%= f.label :twitter %>
+      <%= f.text_field :twitter, class: 'form-control' %>
+
+      <%= f.label :github %>
+      <%= f.text_field :github, class: 'form-control' %>
+
+      <%= f.label :linkedin %>
+      <%= f.text_field :linkedin, class: 'form-control' %>
+
+      <%= f.submit "Save changes", class: "btn btn-primary" %>
 
     <% end %>

@@ -5,9 +5,13 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-root 'dashboard#index'
 
-get 'users/new' 
+  root 'dashboard#index'
+
+  get 'users/new', to: 'users#new'
+  post '/users', to: 'users#create'
+  get '/users/:id', to: 'users#show'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
